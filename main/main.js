@@ -12,5 +12,5 @@ module.exports = function main(inputs) {
 
         price += inputs.parkTime * 0.25;
 
-        return price.toFixed(0);
+        return (parseInt(price.toFixed(0)));
 };
